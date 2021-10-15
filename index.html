@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Druxout Store</title>
+</head>
+<body>
+    <!--    nav    -->
+    <div class="topnav" id="myTopnav">
+        <a href="">druxout store</a>
+        <a href="">Nosotros</a>
+        <a href="">Contacto</a>
+        <a href="">Carrito</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div class="banner">
+        <img class="banner__img" src="images/fondo1.jpg" alt="">
+    </div>
+    <!--    About    -->
+    <div class="flexAbout">
+        <p class="flexAbout__titulo">¿Quienes somos?</p>
+        <p class="flexAbout__contenido">Somos druxout, una tienda de ropa dedicada a importación de marcas de otros paises. Contamos con múltiples productos de diversas marcas y una tienda online, donde encontrarás los valores actualizados en dólares y al momento de ejecutar tu compra podrás realizar la conversión en tiempo real a la moneda local de Argentina.</p>
+    </div>
+    <div>
+        <img class="banner__img" src="images/fondo2.jfif" alt="">
+    </div>
+    <!--    Shop    -->
+    <p class="tituloShop">Nuestros productos</p>
+    <div class="gridProductos">
+    <!--    Hoodies    -->
+        <!--    Hoodie1    -->
+        <section id="hoodie1">
+            <div class="gridProductos__contenido">
+                <section id="imagen">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/productos/Hoodies/hoodie_azul_1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Hoodies/hoodie_azul_2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Hoodies/hoodie_azul_3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Hoodies/hoodie_azul_4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>                    
+                </section>
+                <section id="titulo">
+                    <p class="gridProductos__titulos">Hoodie azul</p>
+                </section>
+                <section id="precioUSD">
+                    <p>US$64</p>
+                </section>
+                <section id="cantidad">
+                    <input type="number" class="gridProductos__inputCantidad">
+                </section>
+                <section id="botonAgregar">
+                    <button class="gridProductos__formatoAgregar">Agregar al carro</button>
+                </section>
+            </div>
+        </section>
+        <!--    Hoodie2    -->
+        <section id="hoodie2">
+            <div class="gridProductos__contenido">
+                <section id="imagen">
+                    <div id="carouselExampleDark1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/productos/Hoodies/hoodie_lila_1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Hoodies/hoodie_lila_2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Hoodies/hoodie_lila_3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Hoodies/hoodie_lila_4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark1" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>                    
+                </section>
+                <section id="titulo">
+                    <p class="gridProductos__titulos">Hoodie lila</p>
+                </section>
+                <section id="precioUSD">
+                    <p>US$64</p>
+                </section>
+                <section id="cantidad">
+                    <input type="number" class="gridProductos__inputCantidad">
+                </section>
+                <section id="botonAgregar">
+                    <button class="gridProductos__formatoAgregar">Agregar al carro</button>
+                </section>
+            </div>
+        </section>
+        <!--    Hoodie3    -->
+        <section id="hoodie3">
+            <div class="gridProductos__contenido">
+                <section id="imagen">
+                    <div id="carouselExampleDark2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/productos/Hoodies/hoodie_rojo_1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Hoodies/hoodie_rojo_2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Hoodies/hoodie_rojo_3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Hoodies/hoodie_rojo_4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>                    
+                </section>
+                <section id="titulo">
+                    <p class="gridProductos__titulos">Hoodie rojo</p>
+                </section>
+                <section id="precioUSD">
+                    <p>US$64</p>
+                </section>
+                <section id="cantidad">
+                    <input type="number" class="gridProductos__inputCantidad">
+                </section>
+                <section id="botonAgregar">
+                    <button class="gridProductos__formatoAgregar">Agregar al carro</button>
+                </section>
+            </div>
+        </section>
+    <!--    Sweatshirts    --> 
+        <!--    Sweatshirt1    -->
+        <section id="sweatshirt1">
+            <div class="gridProductos__contenido">
+                <section id="imagen">
+                    <div id="carouselExampleDark3" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/productos/Sweatshirts/sweatshirt_celeste_1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Sweatshirts/sweatshirt_celeste_2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Sweatshirts/sweatshirt_celeste_3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Sweatshirts/sweatshirt_celeste_4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark3" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark3" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>                    
+                </section>
+                <section id="titulo">
+                    <p class="gridProductos__titulos">Sweatshirt celeste</p>
+                </section>
+                <section id="precioUSD">
+                    <p>US$59</p>
+                </section>
+                <section id="cantidad">
+                    <input type="number" class="gridProductos__inputCantidad">
+                </section>
+                <section id="botonAgregar">
+                    <button class="gridProductos__formatoAgregar">Agregar al carro</button>
+                </section>
+            </div>
+        </section>
+        <!--    Sweatshirt2    -->
+        <section id="sweatshirt2">
+            <div class="gridProductos__contenido">
+                <section id="imagen">
+                    <div id="carouselExampleDark4" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/productos/Sweatshirts/sweatshirt_negro_1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Sweatshirts/sweatshirt_negro_2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Sweatshirts/sweatshirt_negro_3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Sweatshirts/sweatshirt_negro_4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark4" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark4" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>                    
+                </section>
+                <section id="titulo">
+                    <p class="gridProductos__titulos">Sweatshirt negro</p>
+                </section>
+                <section id="precioUSD">
+                    <p>US$59</p>
+                </section>
+                <section id="cantidad">
+                    <input type="number" class="gridProductos__inputCantidad">
+                </section>
+                <section id="botonAgregar">
+                    <button class="gridProductos__formatoAgregar">Agregar al carro</button>
+                </section>
+            </div>
+        </section>
+        <!--    Sweatshirt3    -->
+        <section id="sweatshirt3">
+            <div class="gridProductos__contenido">
+                <section id="imagen">
+                    <div id="carouselExampleDark5" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark5" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/productos/Sweatshirts/sweatshirt_violeta_1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Sweatshirts/sweatshirt_violeta_2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Sweatshirts/sweatshirt_violeta_3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Sweatshirts/sweatshirt_violeta_4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark5" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark5" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>                    
+                </section>
+                <section id="titulo">
+                    <p class="gridProductos__titulos">Sweatshirt violeta</p>
+                </section>
+                <section id="precioUSD">
+                    <p>US$59</p>
+                </section>
+                <section id="cantidad">
+                    <input type="number" class="gridProductos__inputCantidad">
+                </section>
+                <section id="botonAgregar">
+                    <button class="gridProductos__formatoAgregar">Agregar al carro</button>
+                </section>
+            </div>
+        </section>
+    <!--    Remeras    -->
+        <!--    Remera1    -->
+        <section id="remera1">
+            <div class="gridProductos__contenido">
+                <section id="imagen">
+                    <div id="carouselExampleDark6" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark6" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/productos/Remeras/remera_blanca_1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Remeras/remera_blanca_2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Remeras/remera_blanca_3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Remeras/remera_blanca_4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark6" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark6" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>                    
+                </section>
+                <section id="titulo">
+                    <p class="gridProductos__titulos">Remera blanca</p>
+                </section>
+                <section id="precioUSD">
+                    <p>US$29</p>
+                </section>
+                <section id="cantidad">
+                    <input type="number" class="gridProductos__inputCantidad">
+                </section>
+                <section id="botonAgregar">
+                    <button class="gridProductos__formatoAgregar">Agregar al carro</button>
+                </section>
+            </div>
+        </section>
+        <!--    Remera2    -->
+        <section id="remera2">
+            <div class="gridProductos__contenido">
+                <section id="imagen">
+                    <div id="carouselExampleDark7" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark7" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/productos/Remeras/remera_negra_1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Remeras/remera_negra_2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Remeras/remera_negra_3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Remeras/remera_negra_4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark7" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark7" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>                    
+                </section>
+                <section id="titulo">
+                    <p class="gridProductos__titulos">Remera negra</p>
+                </section>
+                <section id="precioUSD">
+                    <p>US$29</p>
+                </section>
+                <section id="cantidad">
+                    <input type="number" class="gridProductos__inputCantidad">
+                </section>
+                <section id="botonAgregar">
+                    <button class="gridProductos__formatoAgregar">Agregar al carro</button>
+                </section>
+            </div>
+        </section>
+        <!--    Remera3    -->
+        <section id="remera3">
+            <div class="gridProductos__contenido">
+                <section id="imagen">
+                    <div id="carouselExampleDark8" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark8" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark8" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark8" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark8" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/productos/Remeras/remera_roja_1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Remeras/remera_roja_2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Remeras/remera_roja_3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/productos/Remeras/remera_roja_4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark8" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark8" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>                    
+                </section>
+                <section id="titulo">
+                    <p class="gridProductos__titulos">Remera roja</p>
+                </section>
+                <section id="precioUSD">
+                    <p>US$29</p>
+                </section>
+                <section id="cantidad">
+                    <input type="number" class="gridProductos__inputCantidad">
+                </section>
+                <section id="botonAgregar">
+                    <button class="gridProductos__formatoAgregar">Agregar al carro</button>
+                </section>
+            </div>
+        </section>
+    </div>
+
+    <!--    Newsletter    -->
+    <div class="newsletter">
+        <p class="newsletter__texto">Suscribite a nuestro newsletter para recibir ofertas y las últimas novedades</p>
+        <input type="email" name="" id="newsletter__input" placeholder="Dirección de email">
+        <button class="newsletter__boton">Suscribirse</button>
+    </div>
+
+    <!--    Footer    -->
+    <div class="flexFooter">
+        <div class="flexFooter__container">
+            <p>Información</p>
+            <a href="">Tiendas</a>
+            <a href="">Envíos</a>
+            <a href="">Devoluciones</a>
+            <a href="">Guía de talles</a>
+            <a href="">Contacto</a>
+        </div>
+        <div class="flexFooter__container">
+            <p>Compañía</p>
+            <a href="">Términos y condiciones de servicio</a>
+            <a href="">Políticas de cookies</a>
+            <a href="">Política de privacidad</a>
+            <a href="">Aviso legal</a>
+            <a href="">Preguntas frecuentes</a>
+        </div>
+        <div>
+            <p>Redes sociales</p>
+            <a href=""><img src="images/iconos/instagram.png" alt="icono enlace de instragram"></a>
+            <a href=""><img src="images/iconos/whatsapp.png" alt="icono enlace de whatsapp"></a>
+            <a href=""><img src="images/iconos/facebook.png" alt="icono enlace de facebook"></a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+</body>
+</html>
+
+
