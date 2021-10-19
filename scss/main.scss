@@ -11,8 +11,35 @@ a{
 }
 
 .banner__img{
+    margin-top: 55px;
     width: 100%;
     height: auto;
+}
+
+.navBar{
+    background-color: $verde1;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    a{
+        color:white;
+        padding: 15px;
+        display: inline-block;
+    }
+    a:hover{
+        background-color: $verde2;
+    }
+}
+
+.estiloBtnCarrito{
+    border: none;
+    background-color: $verde1;
+    padding: 9px;
+}
+.estiloBtnCarrito:hover{
+    border: none;
+    background-color: $verde2;
 }
 
 //  Diseño sección about
@@ -102,9 +129,7 @@ section#remera3{
 .gridProductos__titulos{
     font-size: 25px;
 }
-#cantidad{
-    text-align: end;
-}
+
 .gridProductos__inputCantidad{
     width: 42px;
     height: 40px;

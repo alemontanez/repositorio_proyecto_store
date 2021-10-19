@@ -6,8 +6,31 @@ a {
   text-decoration: none; }
 
 .banner__img {
+  margin-top: 55px;
   width: 100%;
   height: auto; }
+
+.navBar {
+  background-color: #263740;
+  height: 55px;
+  width: 100%;
+  position: fixed;
+  z-index: 10; }
+  .navBar a {
+    color: white;
+    padding: 15px;
+    display: inline-block; }
+  .navBar a:hover {
+    background-color: #006f72; }
+
+.estiloBtnCarrito {
+  border: none;
+  background-color: #263740;
+  padding: 9px; }
+
+.estiloBtnCarrito:hover {
+  border: none;
+  background-color: #006f72; }
 
 .flexAbout {
   display: flex;
@@ -81,9 +104,6 @@ section#remera3 {
 
 .gridProductos__titulos {
   font-size: 25px; }
-
-#cantidad {
-  text-align: end; }
 
 .gridProductos__inputCantidad {
   width: 42px;
